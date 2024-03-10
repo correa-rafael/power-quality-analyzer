@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <Button
+        android:id="@+id/buttonFreq"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/circle"
+        android:onClick="graficoFreq"
+        android:text="@string/_0_00hz"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/buttonFp"
+        app:layout_constraintTop_toBottomOf="@id/buttonThdi" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/frequencia"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonFreq"
+        app:layout_constraintStart_toStartOf="@+id/buttonFreq"
+        app:layout_constraintTop_toTopOf="@+id/buttonFreq" />
+
+    <Button
+        android:id="@+id/buttonFp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/circle"
+        android:onClick="graficoPF"
+        android:text="@string/_0_000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/buttonFreq"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonThdv" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/fp"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonFp"
+        app:layout_constraintStart_toStartOf="@+id/buttonFp"
+        app:layout_constraintTop_toTopOf="@+id/buttonFp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/thdv"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonThdv"
+        app:layout_constraintStart_toStartOf="@+id/buttonThdv"
+        app:layout_constraintTop_toTopOf="@+id/buttonThdv" />
+
+    <Button
+        android:id="@+id/buttonThdi"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:background="@drawable/circle"
+        android:onClick="graficoThdi"
+        android:text="@string/_00_0"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/buttonFreq"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/buttonThdv"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/thdi"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonThdi"
+        app:layout_constraintStart_toStartOf="@+id/buttonThdi"
+        app:layout_constraintTop_toTopOf="@+id/buttonThdi" />
+
+    <Button
+        android:id="@+id/buttonThdv"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:background="@drawable/circle"
+        android:onClick="graficoThdv"
+        android:text="@string/_00_0"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/buttonFp"
+        app:layout_constraintEnd_toStartOf="@id/buttonThdi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/atualizado_em"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFp"
+        app:layout_constraintVertical_bias="0.800" />
+
+    <TextView
+        android:id="@+id/textData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/_20_11_2020"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.371"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textLocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/as"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textData"
+        app:layout_constraintStart_toEndOf="@+id/textData" />
+
+    <TextView
+        android:id="@+id/textHorario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/_20_59"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView13" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

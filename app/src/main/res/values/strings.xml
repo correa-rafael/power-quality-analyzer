@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">MQE</string>
+    <string name="intro1"> Bem vindo ao Medidor de Qualidade Energética \n GICS UFPR!</string>
+    <string name="intro2"> Monitore a qualidade da rede elétrica de forma simples </string>
+    <string name="intro3"> Visualize de forma gráfica as distorções da rede e fator de potência</string>
+    <string name="intro4"> Um projeto de Iniciação Científica desenvolvido em 2019–2021</string>
+    <string name="intro_cadastro"> Faça login ou crie uma nova conta</string>
+    <string name="title_activity_principal">PrincipalActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="sobre">Esse é um projeto de iniciação científica desenvolvido no grupo GICS UFPR durante o período de 2019–2021 por Caio Molinari, Rafael Correa e Luis Lolis</string>
+    <string name="crie_sua_conta_gratis">Crie sua conta grátis</string>
+    <string name="nome">Nome</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="termos_de_uso">Termos de uso</string>
+    <string name="_24_horas">24 HORAS</string>
+    <string name="tempo_real">TEMPO REAL</string>
+    <string name="acesse_sua_conta">Acesse sua conta</string>
+    <string name="senha">Senha</string>
+    <string name="login">Login</string>
+    <string name="e_mail">E-mail</string>
+    <string name="data">Data</string>
+    <string name="horario">Horário</string>
+    <string name="local">Local</string>
+    <string name="monitor_em_tempo_real">Monitor em tempo real</string>
+    <string name="fp">FP</string>
+    <string name="thdv">THDv</string>
+    <string name="thdi">THDi</string>
+    <string name="_10_3">10.3%</string>
+    <string name="atualizado_em">Atualizado em:</string>
+    <string name="_20_11_2020">20/11/2020</string>
+    <string name="textview">TextView</string>
+    <string name="as">às</string>
+    <string name="_20_59">20:59</string>
+    <string name="todo">TODO</string>
+    <string name="cadastre_se">CADASTRE-SE</string>
+    <string name="ja_tenho_uma_conta">Já tenho uma conta</string>
+    <string name="sair">Sair</string>
+    <string name="sobre_">Sobre</string>
+    <string name="frequencia">Frequência</string>
+    <string name="_0_00hz">0.00 Hz</string>
+    <string name="_00_0">00.0%</string>
+    <string name="_0_000">-0.000</string>
+</resources>
