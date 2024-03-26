@@ -23,17 +23,25 @@ To run the Android application:
 
 *Welcome Screen*
 
+____________________________________________________________
+
 ![User Registration](images/user_registration.png)
 
 *User Registration*
+
+____________________________________________________________
 
 ![Real-time Visualization](images/real_time_visualization.png)
 
 *Real-time Visualization*
 
+____________________________________________________________
+
 ![About Section](images/about_section.png)
 
 *About Section*
+
+____________________________________________________________
 
 ![Database Structure](images/database_structure.png)
 
