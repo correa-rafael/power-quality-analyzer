@@ -20,16 +20,21 @@ To run the Android application:
 ## Screenshots
 
 ![Welcome Screen](images/welcome_screen.png)
+
 *Welcome Screen*
 
 ![User Registration](images/user_registration.png)
+
 *User Registration*
 
 ![Real-time Visualization](images/real_time_visualization.png)
+
 *Real-time Visualization*
 
 ![About Section](images/about_section.png)
+
 *About Section*
 
 ![Database Structure](images/database_structure.png)
+
 *Database Structure*
